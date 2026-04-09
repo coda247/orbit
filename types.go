@@ -9,6 +9,9 @@ type PayloadAction = string
 var (
 	ActionSubmit        PayloadAction = "submit"
 	ActionCancel        PayloadAction = "cancel"
+	ActionPause         PayloadAction = "pause"
+    ActionPauseAll      PayloadAction = "pause_all"
+    ActionUpdate        PayloadAction = "update"
 	ActionCancelWithKey PayloadAction = "cancel_with_key" // this method will not notify to the user
 	ActionReload        PayloadAction = "reload"
 	ActionNew           PayloadAction = "new"
