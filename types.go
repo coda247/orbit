@@ -10,6 +10,8 @@ var (
 	ActionSubmit        PayloadAction = "submit"
 	ActionCancel        PayloadAction = "cancel"
 	ActionPause         PayloadAction = "pause"
+	ActionPlay          PayloadAction = "play"
+	ActionPlayAll       PayloadAction = "play_all"
     ActionPauseAll      PayloadAction = "pause_all"
     ActionUpdate        PayloadAction = "update"
 	ActionCancelWithKey PayloadAction = "cancel_with_key" // this method will not notify to the user
